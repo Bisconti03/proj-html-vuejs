@@ -1,4 +1,5 @@
 <script>
+import InfoHeader from './components/InfoHeader.vue'
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
@@ -13,20 +14,28 @@ export default {
   components: {
     AppHeader,
     AppMain,
-    AppFooter
+    AppFooter,
+    InfoHeader,
   }
 }
 </script>
 
 <template>
-  <button @click="count++">Count is: {{ count }}</button>
+
+  <InfoHeader/>
+  
+ <AppHeader/>
+
+ <AppMain/>
+
+ <AppFooter/>
+  
+  
 </template>
 
 <style lang="scss">
 @import './styles/main';
 
-button {
-  font-weight: bold;
-}
+
 </style>
 

@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.full-btn {
+    background-color: $primary-green;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 1px solid $primary-green;
+
+}
+
+
+.outline-btn {
+    background-color: white;
+    color: $primary-green;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 1px solid $primary-green;
+
+}
+
+ul {
+    list-style: none
+}
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
