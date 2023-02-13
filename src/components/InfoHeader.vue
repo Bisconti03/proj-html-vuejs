@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="back">
+  <div class="back py-2">
     <div class="container ">
     <div class="row d-flex justify-content-between ">
       <div class="col-3 d-flex align-items-center ">
@@ -40,9 +40,9 @@ export default {
 
 
          <span>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-facebook px-2"></i>
+          <i class="fa-brands fa-twitter px-2"></i>
+          <i class="fa-brands fa-linkedin px-2"></i>
          </span>
       </div>
     </div>
@@ -58,7 +58,7 @@ export default {
 background-color: #21333e;
 }
 span, i {
-  color: white;
+  color: lightgray;
   font-size: 0.85rem;
 }
 

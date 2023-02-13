@@ -7,7 +7,7 @@ import AppFooter from './components/AppFooter.vue';
 export default {
   data() {
     return {
-      count: 0
+      
     }
   },
 
