@@ -21,7 +21,7 @@ export default {
 
     <div class="row">
       <div class="col">
-        <h2 class=" fw-bold py-4">
+        <h2 class=" fw-bold pb-4">
           Excellenxce in <span class="bg-title rounded">Services</span> 
         </h2>
       </div>
@@ -125,8 +125,6 @@ export default {
       </div>
 
 
-
-
       <div class="col-4">
         <div class="card border-0" style="width: 25rem;">
           <div class="card-body">
@@ -146,8 +144,6 @@ export default {
 
       
       </div>
-
-
 
 
       <div class="col-4">
@@ -171,12 +167,7 @@ export default {
       </div>
     </div>
 
-    <div class="position-relative">
-      <div class="position-absolute top-100 start-50 translate-middle">
-      <img src="../assets/images/svg-0.svg" class="" alt="">
-    </div>
-
-    </div>
+    
   </div>
   </div>
   
@@ -185,7 +176,7 @@ export default {
 <style lang="scss" scoped>
 .back {
   background-color: #eef4ed;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 h5 {

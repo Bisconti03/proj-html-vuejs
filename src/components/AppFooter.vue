@@ -40,7 +40,7 @@ export default {
           </li>
         </ul>
 
-        <button class="outline-btn bg-transparent text-white">GET IN TOUCH</button>
+        <button class="outline-btn  text-white">GET IN TOUCH</button>
         </div>
 
         <div class="col-2  bg-custom rounded ps-4 pt-4 ">
@@ -237,6 +237,13 @@ main {
   background-color: #111117;
   color: $tertiary-grey;
   
+  button {
+    background-color: #0d0d11;
+
+    &:hover {
+      background-color: $secondary-green;
+    }
+  }
  .main-row {
   padding: 150px 0;
  }

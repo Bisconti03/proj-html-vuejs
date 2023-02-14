@@ -72,14 +72,15 @@ export default {
     </div>
   </div>
 
-  <div class="second-section  d-flex justify-content-around  ">
-    <div class="row g-5 ">
+  <div class="second-section d-flex align-items-center  ">
+    <div class="container ">
+      <div class="row m-0 p-0 d-flex justify-content-between align-items-center">
       <div class="col-2  d-flex align-items-center">
-        <img src="../assets/images/logo-4.png" alt="">
+        <img src="../assets/images/logo-4.png" class="ps-3" alt="">
       </div>
 
       <div class="col-2  d-flex align-items-center">
-        <img src="../assets/images/logo-2.png" alt="">
+        <img src="../assets/images/logo-2.png"  alt="">
       </div>
 
       <div class="col-2  d-flex align-items-center">
@@ -91,7 +92,7 @@ export default {
       </div>
 
       <div class="col-2  d-flex align-items-center">
-        <img src="../assets/images/logo-5.png" alt="">
+        <img src="../assets/images/logo-5.png" class="ps-5" alt="">
       </div>
 
 
@@ -100,6 +101,8 @@ export default {
       </div>
 
     </div>
+    </div>
+    
   </div>
 </template>
 

@@ -10,18 +10,28 @@ export default {
 
 <template>
   <div class="back  position-relative ">
+
     
+      <div class="position-absolute top-100 start-50 translate-middle pt-5">
+      <img src="../assets/images/svg-0.svg" class="special-img" alt="">
+      </div>
+
+      <div class="position-absolute top-0 start-50 translate-middle pt-5 ">
+      <img src="../assets/images/svg-0.svg" class="special-img" alt="">
+      </div>
     
-    <div class="row">
+    <div class="container">
+
+      <div class="row">
       <div class="col-6 company  ">
 
 
 
-        <h5 class="fw-bold fs-6">
+        <h5 class="fw-bold fs-6 pb-5">
           ABOUT THE NETWORK
         </h5>
 
-        <h2 class="fw-bold">
+        <h2 class="fw-bold py-3">
           <span class="bg-title-light rounded">The</span> Company
         </h2>
 
@@ -81,6 +91,8 @@ export default {
         </div>
 
       </div>
+    </div>
+    
 
     </div>
   </div>
@@ -110,11 +122,14 @@ img {
   
 }
 
-
+.special-img {
+  filter: invert(32%) sepia(93%) saturate(685%) hue-rotate(139deg) brightness(99%) contrast(96%) opacity(50%);
+  
+}
 
 .company {
   width: 50%;
-  padding-left: 300px;
+  
   padding-top: 200px;
 }
 
@@ -143,7 +158,11 @@ p {
 
 
 .outline-btn {
-  background: transparent;
+  background-color: #111117;
+
+  &:hover {
+    background-color: $secondary-green;
+  }
 }
 </style>
 

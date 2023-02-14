@@ -73,7 +73,8 @@ export default {
 
 <style lang="scss" scoped>
 .back {
-    background-color: white;
+    background-image: url("../assets/images/3257525.jpg");
+    background-size: cover;
     
     
 }

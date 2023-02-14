@@ -40,9 +40,10 @@ export default {
 
 
          <span>
-          <i class="fa-brands fa-facebook px-2"></i>
-          <i class="fa-brands fa-twitter px-2"></i>
-          <i class="fa-brands fa-linkedin px-2"></i>
+          <a href=""> <i class="fa-brands fa-facebook px-2"></i></a>
+          <a href=""><i class="fa-brands fa-twitter px-2"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin px-2"></i></a>
+          
          </span>
       </div>
     </div>
