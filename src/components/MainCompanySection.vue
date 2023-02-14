@@ -17,11 +17,11 @@ export default {
 
 
 
-        <h5>
-          About the network
+        <h5 class="fw-bold fs-6">
+          ABOUT THE NETWORK
         </h5>
 
-        <h2>
+        <h2 class="fw-bold">
           The Company
         </h2>
 
@@ -34,7 +34,7 @@ export default {
           <div class="card mt-2 me-2 bg-transparent" style="width: 16rem;">
             <div class="card-body p-0 text-start ">
               <h4 class="card-title py-2">
-                <i class="fa-solid fa-award pe-2"></i>Card title</h4>
+                <i class="fa-solid fa-award pe-2"></i>Tradition</h4>
               
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               
@@ -44,18 +44,7 @@ export default {
           <div class="card mt-2 me-2 bg-transparent " style="width: 16rem;">
             <div class="card-body p-0 text-start ">
               <h4 class="card-title py-2">
-                <i class="fa-solid fa-lock"></i>Card title</h4>
-              
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              
-            </div>
-          </div>
-
-
-          <div class="card mt-2 me-2 bg-transparent " style="width: 16rem;">
-            <div class="card-body p-0 text-start ">
-              <h4 class="card-title py-2">
-                <i class="fa-solid fa-pen-to-square"></i>Card title</h4>
+                <i class="fa-solid fa-lock"></i>Security</h4>
               
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               
@@ -66,7 +55,18 @@ export default {
           <div class="card mt-2 me-2 bg-transparent " style="width: 16rem;">
             <div class="card-body p-0 text-start ">
               <h4 class="card-title py-2">
-                <i class="fa-solid fa-graduation-cap"></i>Card title</h4>
+                <i class="fa-solid fa-pen-to-square"></i>Certificate</h4>
+              
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
+
+
+          <div class="card mt-2 me-2 bg-transparent " style="width: 16rem;">
+            <div class="card-body p-0 text-start ">
+              <h4 class="card-title py-2">
+                <i class="fa-solid fa-graduation-cap"></i>Expertise</h4>
               
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               

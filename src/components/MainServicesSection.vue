@@ -9,19 +9,19 @@ export default {
 </script>
 
 <template>
-  <div class="back py-4 ">
+  <div class="back  ">
     <div class="container">
     <div class="row">
       <div class="col">
         <h5 class="fs-6 fw-bold py-5 ">
-          OUR BUSINESS IDEA
+          OUR BUSINESS AREAS
         </h5>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <h2 class="fs-1 fw-bold py-4">
+        <h2 class=" fw-bold py-4">
           Excellenxce in services
         </h2>
       </div>
@@ -185,12 +185,16 @@ export default {
 <style lang="scss" scoped>
 .back {
   background-color: #eef4ed;
+  padding: 150px 0;
 }
 
 h5 {
   color: $secondary-green;
 }
-
+h2 {
+  font-size: 60px;
+  color: #21333e;
+}
 .card {
 
   padding-left: 20px;

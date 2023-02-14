@@ -19,11 +19,21 @@ export default {
 
             <div class="col-7  d-flex justify-content-between align-items-center">
                 
-                   <span>HOME</span>
-                   <span>SERVICES</span>
-                   <span>ABOUT</span>
-                   <span>PROJECTS</span>
-                   <span>RESULTS</span>
+                   <span>
+                    <a href="">HOME</a>
+                    </span>
+                   <span>
+                    <a href="">SERVICES</a>
+                    </span>
+                   <span>
+                    <a href="">ABOUT</a>
+                    </span>
+                   <span>
+                    <a href="">PROJECTS</a>
+                   </span>
+                   <span>
+                    <a href="">RESULTS</a>
+                    </span>
                     
                     
                
@@ -84,6 +94,18 @@ header {
 
     span {
         color: $primary-blue;
+        padding: 15px 10px;
+
+        &:hover {
+            background-color: $light-green;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #21333e;
+
+        
     }
 }
 
