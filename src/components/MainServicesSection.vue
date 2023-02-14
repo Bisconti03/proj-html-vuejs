@@ -42,9 +42,9 @@ export default {
 
     <div class="row gy-4 d-flex justify-content-between flex-wrap ">
       <div class="col-4 ">
-        <div class="card border-0" style="width: 25rem;">
+        <div class="card  border-0" style="width: 25rem;">
           <div class="card-body ">
-            <i class="fa-solid fa-arrow-right fs-2"></i>
+             <i class="fa-solid fa-arrow-right fs-2"></i>
 
             <img src="../assets/images/svg-1.svg" alt="">
             <h4 class="card-title fw-bold">Audit & Assurance</h4>
@@ -195,10 +195,27 @@ h2 {
   font-size: 60px;
   color: #21333e;
 }
+
+
 .card {
 
   padding-left: 20px;
 
+  &:hover {
+    cursor: pointer;
+
+
+    i {
+      background-color: #7bd1d1;
+    }
+  }
+  
+
+  i {
+    border-radius: 50%;
+    padding: 13px;
+  }
+  
   img {
     width: 45px;
     fill: green($color: #000000);
