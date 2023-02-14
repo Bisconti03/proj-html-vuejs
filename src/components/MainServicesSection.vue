@@ -22,7 +22,7 @@ export default {
     <div class="row">
       <div class="col">
         <h2 class=" fw-bold py-4">
-          Excellenxce in services
+          Excellenxce in <span class="bg-title rounded">Services</span> 
         </h2>
       </div>
     </div>
@@ -211,14 +211,11 @@ h2 {
   }
   
 
-  i {
-    border-radius: 50%;
-    padding: 13px;
-  }
+  
   
   img {
     width: 45px;
-    fill: green($color: #000000);
+    filter: invert(32%) sepia(93%) saturate(685%) hue-rotate(139deg) brightness(99%) contrast(96%);
     padding: 20px 0;
   }
 
@@ -230,8 +227,10 @@ h2 {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: $secondary-green ;
+    color: $primary-green ;
     filter: opacity(0.7);
+    border-radius: 50%;
+    padding: 13px;
     
   }
 

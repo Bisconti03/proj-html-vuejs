@@ -22,7 +22,7 @@ export default {
         </h5>
 
         <h2 class="fw-bold">
-          The Company
+          <span class="bg-title-light rounded">The</span> Company
         </h2>
 
         <p>
@@ -109,6 +109,8 @@ img {
   
   
 }
+
+
 
 .company {
   width: 50%;

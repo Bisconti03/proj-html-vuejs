@@ -21,7 +21,7 @@ export default {
 
       <div class="row">
         <div class="col text-center pt-5">
-          <h2 class="text-white fw-bold">Results in Numbers</h2>
+          <h2 class="text-white fw-bold"><span class="bg-title-light rounded">Results</span> in Numbers</h2>
         </div>
 
       </div>

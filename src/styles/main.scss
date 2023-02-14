@@ -5,6 +5,11 @@
     overflow-y: auto;
 }
 
+button:hover {
+    color: white;
+    background-color: #00a6a6;
+}
+
 
 .full-btn {
     background-color: $primary-green;
@@ -32,6 +37,19 @@ ul {
 
 h2 {
     font-size: 30px;
+}
+
+.bg-title {
+    background-color: #daeced;
+    color: $primary-green;
+    padding: 0 5px;
+    
+ 
+}
+
+.bg-title-light {
+    background-color: #0e272d;
+    padding: 0 5px;
 }
 
 

@@ -50,8 +50,8 @@ export default {
     
     <div class="position-absolute centered-div top-50 start-50 translate-middle" >
         <div class="d-flex  flex-column align-items-center">
-            <h1 >
-                Ready Team
+            <h1 class="fw-bold" >
+                Ready <span class="bg-title rounded">Team</span> 
             </h1>
 
             <p >
@@ -80,7 +80,15 @@ export default {
 
 .h1 {
     font-size: 2.5em;
+    color: #21333e;
+    
+
+    
+
+    
 }
+
+
 
 .centered-div {
     width: 600px;

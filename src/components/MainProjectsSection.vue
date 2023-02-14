@@ -18,7 +18,7 @@ export default {
 
     <div class="row">
       <div class="col text-center">
-        <h2 class="fw-bold">Actions and projects</h2>
+        <h2 class="fw-bold">Actions and <span class="bg-title rounded">Projects</span></h2>
       </div>
     </div>
 
@@ -151,6 +151,7 @@ span {
 h2 {
   font-size: 60px;
   color: #21333e;
+  overflow: hidden;
 }
 
 .custom-color {

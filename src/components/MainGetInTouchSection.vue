@@ -15,7 +15,7 @@ export default {
       <div class="col-6 p-4">
         <h5 class="fs-6">SEND A MESSAGE  </h5>
 
-        <h2 class="fw-bold">Get in Touch</h2>
+        <h2 class="fw-bold">Get in <span class="bg-title rounded">Touch</span></h2>
 
         <p>We will respond to your message as soon as possible</p>
 

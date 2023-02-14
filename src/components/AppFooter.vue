@@ -236,6 +236,7 @@ export default {
 main {
   background-color: #111117;
   color: $tertiary-grey;
+  
  .main-row {
   padding: 150px 0;
  }
